@@ -2,7 +2,7 @@ name: Stock Analysis Bot
 
 on:
   schedule:
-    - cron: '0 16 * * 1-5'  # 每周一到五16:00(UTC+8)运行
+    - cron: '0 9 * * 1-5'  # 每周一到五16:00(UTC+8)运行
   workflow_dispatch:  # 允许手动触发
 
 jobs:

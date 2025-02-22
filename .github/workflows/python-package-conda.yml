@@ -30,4 +30,4 @@ jobs:
         TZ: ${{ secrets.TZ }}
       run: |
         mkdir -p results  # 确保结果目录存在
-        python 2.py --mode strict
+        python newnew.py --mode strict

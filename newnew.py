@@ -25,7 +25,7 @@ from multiprocessing.dummy import Pool
 
 # ========== 系统配置 ==========
 PUSH_TOKEN = 'f084c45f55ca4d658565498255db384b'
-MIN_MV = 80
+MIN_MV = 20
 MAX_MV = 500
 PE_THRESHOLD = 50
 PB_THRESHOLD = 5
